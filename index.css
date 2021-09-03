@@ -1,0 +1,21 @@
+body {
+  background-image:url('background.jpg');
+  background-size:cover;
+}
+
+.bg-darksalmon {
+  background-color: darksalmon;
+}
+.search-box {
+    
+  border-top: 2px solid lightgray;
+  border-left: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+  border-right: 0;
+}
+#search-btn {
+    background: linear-gradient(45deg,lightgreen, skyblue);
+  border-top: 2px solid lightgray;
+  border-right: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+}
