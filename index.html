@@ -42,12 +42,19 @@
           </nav>
         <!-- nav bar end  -->
       <div class=" d-flex justify-content-center mt-5 me-5">
-        <form class="d-flex w-50">
-            <input id="search-city"  class="search-box w-100" type="search" placeholder="Search city" aria-label="Search">
-            <button onclick="searchTemperature()" class="btn" type="submit" id="search-btn">Search</button>
-          </form>
+        
+            <input id="search-city"  class=" w-50" type="text" placeholder="Search city">
+            <button onclick="searchTemperature()"  class="btn" type="submit" id="search-btn">Search</button>
+          
+      </div>
+      <div class="d-flex flex-column align-items-center text-light" id="info">
+          <img id="weather-icon" src="sunny.png" alt="">
+          <h1 id="city">Dhaka</h1>
+          <h3><span id="temp">38</span>&deg;C</h3>
+          <h2 id="condition">Sunny</h2>
       </div>
     </header>
+
 
     <script src="app.js"></script>
   </body>
